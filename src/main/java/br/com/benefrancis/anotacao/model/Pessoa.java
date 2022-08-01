@@ -23,7 +23,4 @@ public class Pessoa {
 	@CNPJ
 	private String cnpj;
 
-	public String getEmail() {
-		return email;
-	}
 }
