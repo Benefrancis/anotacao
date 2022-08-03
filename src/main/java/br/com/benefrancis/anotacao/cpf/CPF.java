@@ -38,6 +38,6 @@ public @interface CPF {
 	String message() default MESSAGE;
 
 	Class<?>[] groups() default {};
-
+	
 	Class<? extends Payload>[] payload() default {};
 }

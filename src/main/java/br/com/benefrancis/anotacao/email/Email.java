@@ -32,12 +32,12 @@ import javax.validation.constraints.Pattern;
  * @since 1.0
  *
  */
-@Documented
+//@Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.FIELD })
 @Pattern(regexp = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,15}$", message = "Email inválido")
 //@Constraint(validatedBy = MyEmailValidator.class)
-@Constraint(validatedBy = {})
+ @Constraint(validatedBy = {})
  
 public @interface Email {
 

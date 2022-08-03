@@ -17,8 +17,8 @@ public class App {
 		Pessoa p = new Pessoa();
 		p.setNascimento(new Date());
 		p.setNome("Benefrancis");
-		p.setEmail("benefrancis@gmail.com");
-		p.setCpf("248.788.918-74");
+		p.setEmail("benefrancis@gmailcom");
+		p.setCpf("248.788.918-73");
 		p.setCnpj("248464564645654");
 
 		isValid(p);
